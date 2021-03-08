@@ -8,13 +8,30 @@
   font-family: sans-serif;
 }
 
+.NameText {
+  color: #FFFFFF;
+  background: #232323;
+  text-shadow: 0 0 5px #000000, 0 0 10px #ffffff, 0 0 15px #FFF, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 body {
   background-color: black;
 }
 
 #landing {
-  width: 100%;
+  width: 200%;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #landing::before {
@@ -130,7 +147,13 @@ html, body {
   height: 100%;
 }
 
-body {
+#landing {
+  position: relative;
+  width: 50%;
+  height: 75%;
+  background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
+  background-size: cover;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,15 +163,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#landing {
-  position: relative;
-  width: 50%;
-  height: 75%;
-  background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
-  background-size: cover;
-  overflow: hidden;
 }
 
 .firefly {

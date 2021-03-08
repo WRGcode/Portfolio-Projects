@@ -2,7 +2,13 @@ html, body {
   height: 100%;
 }
 
-body {
+#landing {
+  position: relative;
+  width: 50%;
+  height: 75%;
+  background: url(https://amourekleu.com/wp-content/uploads/2020/11/Amoure-Kleu-Author-Whispers-of-the-Dark-Forest-1.jpg);
+  background-size: cover;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,15 +18,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.container {
-  position: relative;
-  width: 50%;
-  height: 75%;
-  background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
-  background-size: cover;
-  overflow: hidden;
 }
 
 .firefly {
@@ -3109,4 +3106,4 @@ body {
             box-shadow: 0 0 2vw 0.4vw yellow;
   }
 }
-/*# sourceMappingURL=test.css.map */
+/*# sourceMappingURL=MikeGolus.css.map */

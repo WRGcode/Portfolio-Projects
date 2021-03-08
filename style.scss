@@ -12,15 +12,25 @@ box-sizing: border-box;
 font-family: $font;
 }
 
-
+.NameText{
+        color: #FFFFFF;
+        background: #232323;
+        text-shadow: 0 0 5px #000000, 0 0 10px #ffffff, 0 0 15px #FFF, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+        color: #FFFFFF;
+        background-color: rgba(0,0,0, 0);
+}
 
 body{
+    
     background-color: black;
 }
 
 #landing{
-    width: 100%;
+    width: 200%;
     height: 100vh;
+    display: flex;
+        justify-content: center;
+        align-items: center;
     
     &::before{
         content: "";
@@ -124,4 +134,4 @@ text-transform: uppercase;
     display: none;
 }
 
-@import 'test';
+@import 'MikeGolus';

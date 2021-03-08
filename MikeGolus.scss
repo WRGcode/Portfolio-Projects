@@ -2,19 +2,22 @@ html, body {
     height: 100%;
   }
   
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  // body {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
   
-  .container {
+  #landing {
     position: relative;
     width: 50%;
     height: 75%;
     background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
     background-size: cover;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+   align-items: center;
   }
   
   .firefly {
