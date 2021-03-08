@@ -76,7 +76,7 @@ body {
 #landing h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -97,19 +97,23 @@ body {
   color: green;
 }
 
-#landing .skills h2 {
+.skills {
+  color: #00abc2;
+}
+
+.skills h2 {
   color: #00abc2;
   text-align: center;
 }
 
-#landing .skills .progress {
+.skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
 
-#landing .skills .progress .skill {
+.skills .progress .skill {
   padding: 10px 0;
   margin: 0;
   text-transform: uppercase;
@@ -118,16 +122,16 @@ body {
   color: white;
 }
 
-#landing .skills .progress .skill .val {
+.skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-#landing .skills .progress-bar-warp {
+.skills .progress-bar-warp {
   background-color: #5a5a5a;
 }
 
-#landing .skills .progress-bar {
+.skills .progress-bar {
   height: 10px;
   -webkit-transition: 1s;
   transition: 1s;
@@ -138,9 +142,11 @@ body {
 .back-to-top {
   position: -webkit-sticky;
   position: sticky;
-  bottom: 5%;
-  left: 95%;
+  top: 90%;
+  left: 100%;
   display: none;
+  width: 5%;
+  height: 5%;
 }
 
 #landing {
