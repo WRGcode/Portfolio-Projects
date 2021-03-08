@@ -13,10 +13,10 @@ font-family: $font;
 }
 
 .NameText{
-        color: #FFFFFF;
+        color: yellow;
         background: #232323;
-        text-shadow: 0 0 5px #000000, 0 0 10px #ffffff, 0 0 15px #FFF, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
-        color: #FFFFFF;
+        text-shadow: 0 0 5px #000000, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+        color: yellow;
         background-color: rgba(0,0,0, 0);
 }
 
@@ -59,7 +59,7 @@ body{
 margin: 0 0 10px 0;
 font-size: 64px;
 font-family: fantasy; //update later
-color: white;
+color: yellow;
     }
 
     h2{

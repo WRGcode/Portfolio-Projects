@@ -1,12 +1,8 @@
-html, body {
-  height: 100%;
-}
-
 #landing {
   position: relative;
-  width: 50%;
-  height: 75%;
-  background: url(https://amourekleu.com/wp-content/uploads/2020/11/Amoure-Kleu-Author-Whispers-of-the-Dark-Forest-1.jpg);
+  width: 100%;
+  height: 100%;
+  background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg) top right;
   background-size: cover;
   overflow: hidden;
   display: -webkit-box;
