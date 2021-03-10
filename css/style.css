@@ -25,6 +25,11 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+.divider {
+  color: white;
+  padding: 5px;
+}
+
 body {
   background-color: black;
 }
@@ -113,10 +118,15 @@ body {
 .skills h2 {
   color: #00abc2;
   text-align: center;
+  color: yellow;
+  background: #232323;
+  text-shadow: 0 0 5px #000000, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .skills .progress {
-  height: 60px;
+  height: 70px;
   display: block;
   background: none;
   border-radius: 0;
@@ -126,7 +136,8 @@ body {
   padding: 10px 0;
   margin: 0;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 15px;
   font-family: sans-serif;
   color: white;
 }
@@ -138,14 +149,54 @@ body {
 
 .skills .progress-bar-warp {
   background-color: #5a5a5a;
+  height: 20px;
+  border-radius: 90px;
 }
 
 .skills .progress-bar {
-  height: 10px;
+  height: 20px;
+  border-radius: 90px;
   -webkit-transition: 1s;
   transition: 1s;
   background: -webkit-gradient(linear, left top, right top, from(#0084d1), color-stop(45%, #00abc2), to(#00d9ff));
   background: linear-gradient(to right, #0084d1 0%, #00abc2 45%, #00d9ff 100%);
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: yellow;
+  background: #232323;
+  text-shadow: 0 0 5px #000000, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px soild #00b7ff;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #00b7ff;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 0;
 }
 
 .back-to-top {
