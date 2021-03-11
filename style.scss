@@ -1,6 +1,6 @@
 
 
-$font: sans-serif;
+$font: variable-exists($name: airel);
 $quantity: 15;
 
 *
@@ -12,19 +12,17 @@ box-sizing: border-box;
 font-family: $font;
 }
 
-#navbar{
-    position: sticky;
-}
+
 
 .disabled{
     color:rgba(0, 0, 0, 0.527);
 }
 
 .NameText{
-        color: yellow;
+        color: whitesmoke;
         background: #232323;
-        text-shadow: 0 0 5px #000000, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
-        color: yellow;
+        text-shadow: 0 0 5px #000000, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+        color: whitesmoke;
         background-color: rgba(0,0,0, 0);
 }
 
@@ -72,7 +70,7 @@ body{
 margin: 0 0 10px 0;
 font-size: 64px;
 font-family: fantasy; //update later
-color: yellow;
+color: whitesmoke;
     }
 
     h2{
@@ -165,7 +163,7 @@ text-transform: uppercase;
     .resume-item{
         padding: 0 0 20px 20px;
         margin-top: -2px;
-        border-left: 2px soild rgb(0, 183, 255);
+        border-left: 2px soild rgb(117, 216, 255);
         position: relative;
         
 
@@ -175,19 +173,32 @@ text-transform: uppercase;
             font-weight: 600;
             text-transform: uppercase;
             font-family: $font;
-            color: rgb(0, 183, 255);
+            color: rgb(133, 221, 255);
             margin-bottom: 10px;
         }
+        h5{
+            color: rgb(133, 221, 255);
+        }
+        p, em{
+            color: rgb(133, 221, 255);
+        }
+        
         
         ul{
             padding-left: 20px;
+            color: rgb(133, 221, 255);
             li{
                 padding-bottom: 0;
+                color: rgb(133, 221, 255);
             }
         
     }
     
 }
+}
+
+.contact{
+    font: $font;
 }
 
 //back to the top

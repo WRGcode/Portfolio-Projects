@@ -5,12 +5,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-#navbar {
-  position: -webkit-sticky;
-  position: sticky;
+  font-family: false;
 }
 
 .disabled {
@@ -18,10 +13,10 @@
 }
 
 .NameText {
-  color: yellow;
+  color: whitesmoke;
   background: #232323;
-  text-shadow: 0 0 5px #000000, 0 0 10px yellow, 0 0 15px yellow, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
-  color: yellow;
+  text-shadow: 0 0 5px #000000, 0 0 10px whitesmoke, 0 0 15px whitesmoke, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 55px #000000, 0 0 75px #000000;
+  color: whitesmoke;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -84,7 +79,7 @@ body {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-family: fantasy;
-  color: yellow;
+  color: whitesmoke;
 }
 
 #landing h2 {
@@ -138,7 +133,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: false;
   color: white;
 }
 
@@ -177,7 +172,7 @@ body {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px soild #00b7ff;
+  border-left: 2px soild #75d8ff;
   position: relative;
 }
 
@@ -186,17 +181,31 @@ body {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: sans-serif;
-  color: #00b7ff;
+  font-family: false;
+  color: #85ddff;
   margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  color: #85ddff;
+}
+
+.resume .resume-item p, .resume .resume-item em {
+  color: #85ddff;
 }
 
 .resume .resume-item ul {
   padding-left: 20px;
+  color: #85ddff;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 0;
+  color: #85ddff;
+}
+
+.contact {
+  font: false;
 }
 
 .back-to-top {
